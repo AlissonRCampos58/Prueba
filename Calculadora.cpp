@@ -12,17 +12,17 @@ int main(){
 
     switch(opcion){
         case 1:
-            resultado = n1+n2,
+            resultado = n1+n2;
             cout<<"La suma de los numero es: "<<resultado<<endl;
         break;
         case 2: 
         resultado = n1-n2;
         cout<<"la resta de los numeros es:"<<resultado<<endl;
         break;
+        case 3:
+            resultado = n1*n2;
+            cout<<"La multiplicacion de los numeros es: "<<resultado;
+        break;
 
-
-
-
-        
     }
 }
